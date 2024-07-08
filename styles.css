@@ -1,3 +1,16 @@
+:root{
+    --primary: #F4CE14;
+    --secondary-dark: #495E57;
+    --secondary-light: #ABC8C0;
+    --ternary: #854D27;
+    --accent: #93032E; 
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -5,44 +18,35 @@ header{
 }
 
 header img{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 15rem;
 }
 
-nav {
+nav ul{
     display: flex;
-    align-items:center ;
-    justify-content: center;
-}
-
-nav div{
-    display: inline-flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
 
-    padding-left: 50px;
-    padding-right: 50px;
+    list-style: none;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
     background: #aaa;
     border-radius: 10px;
 }
 
-nav div p{
+nav li{
     border-width: 10px;
     border-color: white;
     border-style:double;
     font-size:x-large;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+main section{
+    margin-bottom: 1rem;
 }
 
 .large-banner{
@@ -63,7 +67,7 @@ main{
     flex-direction: row;
     gap: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     padding-left: 50px;
     padding-right: 50px;
