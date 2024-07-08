@@ -12,6 +12,7 @@ body {
     font-family: 'Merriweather', Georgia, serif;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: beige
 }
 
 h1,
@@ -48,8 +49,8 @@ nav ul {
     list-style: none;
     padding: 0.5rem 1rem;
     background: var(--secondary-dark);
-    color: white    ;
-    border-radius: 10px;
+    color: white;
+    border-radius: 3px;
 }
 
 nav li {
@@ -64,7 +65,7 @@ nav li::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: var(--secondary-dark);
+    background-color: white;
     left: 50%;
     bottom: -2px;
     transition: width 0.3s, left 0.3s;
@@ -88,7 +89,7 @@ main section {
     align-items: center;
     padding: 2rem;
     background: var(--secondary-light);
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .large-banner{
@@ -102,24 +103,24 @@ main section {
     color: var(--ternary);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 0.5rem;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .small-banners-3{
     justify-content: space-evenly;
 }
-.small-banners-3 p{
+.small-banners-3 article{
+    align-self: flex-start;
+}
+
+.small-banners-3 article p{
     text-align: justify;
 }
 
 .small-banners-3 article img {
     width: 100%;
-    /* Make sure the images fill their container's width */
-    height: 200px;
-    /* Set a fixed height to crop the images */
+    height: 10rem;
     object-fit: cover;
-    /* Crop the images to cover the entire area */
-    border-radius: 10px;
-    /* Optional: to add some styling to match your design */
+    border-radius: 3px;
 }
 
 footer {
