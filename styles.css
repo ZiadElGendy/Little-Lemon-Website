@@ -47,7 +47,8 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 0.5rem 1rem;
-    background: var(--secondary-light);
+    background: var(--secondary-dark);
+    color: white    ;
     border-radius: 10px;
 }
 
@@ -98,13 +99,27 @@ main section {
 
 .large-banner h1{
     font-size: 3rem;
-    color: var(--accent);
+    color: var(--ternary);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 0.5rem;
     border-radius: 10px;
 }
 .small-banners-3{
     justify-content: space-evenly;
+}
+.small-banners-3 p{
+    text-align: justify;
+}
+
+.small-banners-3 article img {
+    width: 100%;
+    /* Make sure the images fill their container's width */
+    height: 200px;
+    /* Set a fixed height to crop the images */
+    object-fit: cover;
+    /* Crop the images to cover the entire area */
+    border-radius: 10px;
+    /* Optional: to add some styling to match your design */
 }
 
 footer {
