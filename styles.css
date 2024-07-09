@@ -76,6 +76,11 @@ nav li:hover::after {
     left: 0;
 }
 
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
 main section {
     margin-bottom: 1rem;
 }
