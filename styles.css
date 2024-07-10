@@ -76,7 +76,7 @@ nav li:hover::after {
     left: 0;
 }
 
-nav a, .large-banner a{
+nav a, .promotion-banner a{
     color: white;
     text-decoration: none;
 }
@@ -85,7 +85,7 @@ main section {
     margin-bottom: 1rem;
 }
 
-.large-banner,
+.promotion-banner,
 .small-banners-3 {
     font-family: 'Alegreya', serif;
     display: flex;
@@ -97,13 +97,13 @@ main section {
     border-radius: 3px;
 }
 
-.large-banner{
+.promotion-banner{
     background-image: url('Assets/Banners/LargeBanner.webp');
     background-size:cover;
     justify-content: center;
     min-height: 10rem;}
 
-.large-banner h1{
+.promotion-banner h1{
     font-size: 3rem;
     color: var(--ternary);
     background-color: rgba(255, 255, 255, 0.8);
@@ -126,6 +126,26 @@ main section {
     width: 100%;
     height: 10rem;
     object-fit: cover;
+    border-radius: 3px;
+}
+
+#chefs {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#chefs img {
+    width: 98%;
+    max-width: 750px;
+    height: auto;
+    padding: 1%;
+    background: var(--primary);
+    border-radius: 3px;
     border-radius: 3px;
 }
 

@@ -30,8 +30,7 @@
 }
 
 .menu h2{
-    color: var(--accent);
-    text-decoration: underline;
+    color: var(--pr);
     font-style: italic;
 }
 
@@ -47,11 +46,11 @@
 }
 
 .menu section > div:first-child {
-    flex-grow: 1; /* The first div will take up the remaining space */
+    flex-grow: 1; 
 }
 
 .menu section > div:last-child {
-    width: 280px; /* Fixed width for the second div */
+    width: 280px; 
 }
 
 
