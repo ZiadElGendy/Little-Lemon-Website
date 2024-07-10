@@ -76,7 +76,7 @@ nav li:hover::after {
     left: 0;
 }
 
-nav a{
+nav a, .large-banner a{
     color: white;
     text-decoration: none;
 }
