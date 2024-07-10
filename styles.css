@@ -87,7 +87,7 @@ main section {
 }
 
 .promotion-banner,
-.small-banners-3 {
+.small-banners {
     font-family: 'Alegreya', serif;
     display: flex;
     flex-direction: row;
@@ -112,18 +112,18 @@ main section {
     border-radius: 3px;
     border-style: double;
 }
-.small-banners-3{
+.small-banners{
     justify-content: space-evenly;
 }
-.small-banners-3 article{
+.small-banners article{
     align-self: flex-start;
 }
 
-.small-banners-3 article p{
+.small-banners article p{
     text-align: justify;
 }
 
-.small-banners-3 article img {
+.small-banners article img {
     width: 100%;
     height: 10rem;
     object-fit: cover;
@@ -149,6 +149,15 @@ main section {
     border-radius: 3px;
     border-radius: 3px;
 }
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 
 footer {
     display: flex;

@@ -30,7 +30,7 @@
 }
 
 .menu h2{
-    color: var(--pr);
+    color: var(--accent);
     font-style: italic;
 }
 
@@ -54,13 +54,32 @@
 }
 
 
-.menu section img {
+.menu img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px; /* Increased border radius for a softer look */
-    border: 3px solid var(--secondary-dark); /* Added border */
+    border-radius: 10px; 
+    border: 3px solid var(--secondary-dark); 
     box-shadow: 5px 5px 0px 0 rgba(0, 0, 0, 0.2);
-    margin: 30px 20px;
+    margin: 30px 20px 0px 20px;
+    transition: transform 0.3s ease; 
+}
+
+.menu img:hover {
+    transform: scale(1.05); 
+}
+
+.menu img + p {
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+    opacity: 0; 
+    transform: translateY(10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.menu img:hover + p {
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
